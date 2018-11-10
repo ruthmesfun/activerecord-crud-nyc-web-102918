@@ -47,6 +47,7 @@ describe 'Movie' do
     it 'can be instantiated with a hash of attributes' do
       expect{Movie.new(attributes)}.to_not raise_error
     end
+
   end
 
   context '#save' do
